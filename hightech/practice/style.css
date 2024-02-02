@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+header{
+    border: 2px solid gray;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+
+}
+.box{
+    /* border: 2px solid red; */
+    display: flex;
+    margin: 20px;
+    
+}
+.box i{
+    font-size: 40px;
+    color: aliceblue;
+
+    
+}
+.box h5{
+    /* font-size: 40px; */
+    color: aliceblue;
+    
+
+    
+}
+.box h2{
+    /* font-size: px; */
+    color: aliceblue;
+    padding-left: 10px;
+    
+    
+}
+button{
+    background-color: gray ;
+    margin: 2px;
+}
+button i{
+    font-size: 10px;
+}
+h5{
+    color: aliceblue;
+}
+.log{
+    font-size: 20px;
+    color: aliceblue;
+}

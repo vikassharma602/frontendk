@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Instagram</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+
+        }
+
+        .container {
+
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            box-sizing: border-box;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+
+        .imagebox {
+            height: 95vh;
+            width: 30vw;
+            /* border: 2px solid black; */
+            margin: 1vw;
+
+        }
+        
+
+        .mainbox {
+            height: 85vh;
+            width: 25vw;
+            border: 2px solid#e4e6eb;
+
+            margin: 1vw;
+            text-align: center;
+            border-radius: 5px;
+
+
+
+        }
+        
+
+        header {
+            height: 15vh;
+            width: 25vw;
+            /* border: 2px solid red; */
+            justify-content: center;
+            text-align: center;
+
+
+
+        }
+
+        header img {
+
+
+            height: 14vh;
+            width: 20vw;
+
+
+        }
+
+        main {
+            height: 35vh;
+            width: 25vw;
+            /* border: 2px solid blue; */
+
+
+        }
+
+        article {
+            height: 10vh;
+            width: 25vw;
+            border: 2px solid #e4e6eb;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 4vh;
+
+        }
+
+        footer {
+            height: 12vh;
+            width: 25vw;
+            /* border: 2px solid rgb(14, 14, 28); */
+            justify-content: center;
+            margin-top: 4vh;
+        }
+
+        input {
+            height: 6vh;
+            width: 20vw;
+            margin: 0.5vh;
+            background-color: #FAFAFA;
+            border: 1px solid #e6e5e5;
+
+
+
+        }
+
+        button {
+            height: 5vh;
+            width: 20vw;
+            border-radius: 10px;
+            border: none;
+            background-color: rgb(75, 185, 215);
+            color: aliceblue;
+            margin-top: 1.8vh;
+            font-size: 0.9em;
+
+
+
+        }
+
+        span {
+            margin-top: 2vh;
+            /* width: auto; */
+            color: #385185;
+        }
+
+        h5 {
+            margin-top: 2vh;
+            color: #737373;
+        }
+
+        .flink {
+            height: 10vh;
+            width: 25vw;
+            /* border: 1px solid #737373; */
+            margin-top: 1.5vh;
+            justify-content: center;
+
+
+
+
+        }
+
+
+        #for {
+            font-size: 13px;
+        }
+
+        .forgot {
+            /* border: 1px solid palevioletred; */
+            margin-top: 4%;
+
+        }
+
+        .doyou {
+            height: 5vh;
+            width: 21vw;
+            /* border:1px solid black ; */
+            justify-content: center;
+            align-items: center;
+        }
+
+        #articlespan {
+            color: black;
+            font-size: 1.1em;
+
+        }
+
+        a {
+            text-decoration: none;
+            color: #0095f6;
+        }
+
+        .spanhead {
+            width: 20vw;
+
+        }
+
+        #spanhead {
+            color: black;
+            font-size: 1.1em;
+
+        }
+
+        .footerimg {
+            height: 9vh;
+            width: 25vw;
+            /* border: 1px solid yellow; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 2vh;
+        }
+
+        .leftimg {
+            height: 6vh;
+            width: 11vw;
+            /* border:1px solid #0095f6; */
+            margin-right: 0.5vw;
+
+        }
+
+        .rightimg {
+            height: 6vh;
+            width: 11vw;
+            /* border:1px solid #0095f6; */
+            margin-left: 0.5vw;
+
+        }
+        h5::before{
+            width: 2vw;
+            border:1px solid black ;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        
+        <div class="imagebox">
+            <img src="Screenshot from 2024-01-05 14-44-58.png" alt="" height="100%" width="100%">
+        </div>
+        
+         <div class="mainbox">
+            <header>
+                <img src="logo.png" alt="">
+
+            </header>
+            <main>
+                <input type="text" placeholder="Phone number, username or email address">
+                <input type="text" placeholder="Password">
+                <button><b>Login</b></button>
+                <h5>OR</h5>
+                <div class="flink">
+                    <div class="Login">
+                        <span><b>Log in with Facebook</b></span>
+                    </div>
+                    <div class="forgot">
+                        <span id="for">Forgetton your Password ? </span>
+                    </div>
+
+
+                </div>
+
+
+            </main>
+
+           
+
+        
+            <article>
+                <div class="doyou">
+                    <span id="articlespan">Don't have an account? <a href=""> Sign up </a></span>
+                </div>
+
+            </article>
+            <footer>
+                <div class="spanhead"><span id="spanhead">Get the app.</span></div>
+                <div class="footerimg">
+                    <div class="leftimg">
+                        <img src="Yfc020c87j0.png" alt="" height="100%" width="100%">
+                    </div>
+                    <div class="rightimg">
+                        <img src="c5Rp7Ym-Klz.png" alt="" height="100%" width="100%">
+                    </div>
+
+
+                </div>
+
+            </footer>
+
+        </div>
+
+
+    </div>
+
+
+
+</body>
+
+</html>
