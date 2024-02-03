@@ -298,9 +298,9 @@ button{
 }
 
 .box6-1{
-    height: 50vh;
+    height: 48vh;
     width: 30%;
-    border: 1px solid gray;
+    /* border: 1px solid gray; */
     margin: 20px;
     position: relative;
 
@@ -321,7 +321,20 @@ button{
     border-radius: 12px;
 }
 .box-inner-img{
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    position:relative;
+    top: -144px;
+    left: 11px;
+    
 }
+.box6-1:hover{
+    .box-inner-g {
+        background-color: #fff;
+    }
+    .box-inner-b{
+        background-color: #fff;
+    }
+}
+
 
 
