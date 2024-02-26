@@ -340,10 +340,15 @@ button{
 .box-ourblog{
     width: 100%;
     border: 2px solid black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
 
 }
-.ourbox-blog-header{
-    
+.ourbox-blog-header{ 
+ border: 2px solid #1842b6;
+ width:40%;
+
 }
 
 
