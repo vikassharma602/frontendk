@@ -464,14 +464,24 @@ span{
     position: relative;
     display: flex;
     flex-direction: column;
+    transition: all 1s ease-in-out;
+    overflow: hidden;   
     
 
+}
+.box-grid:hover{
+    transform: scale(1.05);
+    box-shadow: 0px opx 16px #45595b;
 }
 .boxs-img{
     height: 44%;
     width: 100%;
     /* border: 2px solid black; */
-    
+   transition: all 1s ease-in-out; 
+   
+}
+.boxs-img:hover{
+    transform: scale(1.05);
 }
 .fruitbox{
     height: 7%;
@@ -602,8 +612,8 @@ span{
 
 }
 .box-3-upper{
-    padding: 24px;
-    width: 60%;
+    padding: 25px;
+    width: 60%; 
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -637,7 +647,7 @@ span{
 .fresh-box{
     /* height: 10vh; */
     width: 100%;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     padding-top: 20px;
     padding-bottom: 30px;
     display: flex;
@@ -697,7 +707,7 @@ span{
     font-family: "open sans",sans-serif;
     padding: 20px 25px;
     border-radius: 32px;
-    padding: ;
+        
 }
 .fresh-grid{
     
@@ -721,41 +731,46 @@ span{
     position: relative;
     display: flex;
     flex-direction: column;
-    
+    overflow:hidden ;
+    transition: all 0.5s ease-in-out;
 
 }
 .fresh-box-img{
     height: 44%;
     width: 100%;
+    overflow: hidden;
+    transition: all 1s ease-in-out;
     /* border: 2px solid black; */
     
 }
-.fruitbox{
-    height: 7%;
-    width: 18%;
-    background-color: #ffb524;
+.veg-box{
+    /* height: 7%;   */
+    /* width: 18%; */
+    background-color: #81c408;
     color: #fff;
     font-weight: 400;
     text-align: center;
-    padding-top: 6px;
+    /* padding-top: 6px; */
+    padding: 10px;
     
 
     position: absolute;
     top: 10px;
-    left: 10px;
+    right: 10px;
     border-radius: 10px;
 }
-.boxs-img-text{
+.fresh-img-text{
     width: 100%;
-    border: 2px solid #747d88;
+    /* border: 2px solid #747d88;     */
     padding: 20px;
     display: flex;
     flex-direction: column;
-    text-align: center;
+    text-align: left    ;
+    margin-top: 30px;
 
 
 }
-.boxs-img-text h4{
+.fresh-img-text h4{
     font-size: 25px;
     color: #45595B;
     font-family: "Raleway",sans-serif;
@@ -765,14 +780,100 @@ span{
     
     
 }
-.boxs-img-text .para-body{
+.fresh-img-text .para-body{
+    padding-top: 10px;
     padding-bottom: 10px;
 }
-.boxs-img-price{
+.fresh-img-price{
     border: 1px solid #81c408;
-    flex-direction: row;
+    display: flex;
+    align-items: center;
+    /* padding: 2px; */
+    justify-content: space-between;
+    
+}
+.fresh-img-price p{
+    font-size: 20px;
+    color: #45595b;
+    font-weight: 600;
+
+}
+.fresh-box-img:hover{
+    transform: scale(1.1);
+    
+
+}
+.fresh-boxs-grid:hover{
+    transform: scale(1.05);
+    /* border: 4px solid black; */
+    box-shadow: 0px 0px 16px  #45595B;
+ 
+
+
+}
+.cart{
+    font-size: 15px;
+    border: #ffb524;
+    padding:
+}
+/* .cart p{
+    margin-left: 0.5px;
+    font-size: 10px;
+} */
+/* /////////////////////////////////////// */
+.yellow-box{
+    height: 100vh;
+    width: 100%;
+    background-color: #ffb524;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.left-box{
+    height:80vh ;
+    width: 40%;
+    /* border: 2px solid black;  */
+    background-color: #ffb524;
+    padding-top: 50px;
+}
+.left-box h1{
+    color: #FFFFFF;
+    font-size: 70px;
+    font-weight: 800;
+    font-family: "raleway",sans-serif;
+    padding-bottom: 8px;
+}
+.left-box .ourstore-para{
+    font-size: 65px;
+    color: #45595b;
+    font-family: "raleway",sans-serif;
+    padding-bottom: 20px;
+}
+.left-box .long-para{
+    color: #45595b;
+    padding-bottom: 40px;
+    
+    font-size: 20px;
+    
+
+}
+.left-box .buy-box{
+    padding: 16px 48px;
+    border: 2px solid #fff;
+    border-radius: 50px;
+}
+.buy-box:hover{
+    background-color: #81c408;
 }
 
+
+.right-box{
+    height:80vh ;
+    width: 40%;
+    border: 2px solid black;
+    background-color: #ffb524;
+}
 
 
  

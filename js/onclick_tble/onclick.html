@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .box {
+        border: 2px solid black;
+        min-height: 20vh;
+        width: 50%;
+        margin: 20px 0px;
+      }
+      .bar{
+        height: 8vh;
+        width: 40%;
+        background-color: lightslategrey;
+        border-radius: 20px;
+        margin-left: 60px;
+      }
+      .content{
+        height: 8vh;
+        width: 40%;
+        border: 1px solid black;
+        border-radius: 20px;
+        margin-left: 60px;
+        font-size: 20px;
+        display: none;
+        text-align: center;
+        justify-content: center;
+
+      }
+      input{
+        height: 10vh;
+        width: 20%;
+      }
+      button{
+        height: 10vh;
+        width: 7%;
+      }
+    </style>
+  </head>
+  <body>
+
+    <!-- <textarea name="" id="" cols="30" rows="10"></textarea> <br />
+    <br />
+    <h2>Css Propeties</h2>
+    <input type="text" placeholder="color" id="inp1" />
+    <input type="text" placeholder="background color" id="inp2" />
+    <input type="text" placeholder="Font size" id="inp3">
+    <div class="box"></div>
+    <p>Total latters : <span class="len"></span></p>
+    <!-- <button>submet</button> -->
+   <!-- <div class="bar">
+    
+
+    </div>
+    <div class="content ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, eius.</div>
+  -->
+
+  <input type="" height="5vh" width="40%">
+  <button id="sub">submit</button>
+  <!-- <button id="pop" >pop</button>
+  <button id="print">print name</button> -->
+
+    <script>
+      // document.querySelector("textarea").oninput = function (event) {
+      //   document.querySelector(".box").innerText =event.target.value;
+      //   let len = event.target.value;
+      //   document.querySelector(".len").innerHTML = len.length;
+      // };
+
+      // document.querySelector("#inp1").oninput = function (event) {
+      //   document.querySelector(".box").style.color = event.target.value;
+      // };
+
+      // document.querySelector("#inp2").oninput = function (event) {
+      //   document.querySelector(".box").style.backgroundColor = event.target.value;
+      // };
+
+      // document.querySelector("#inp3").oninput = function (event) {
+      //   document.querySelector(".box").style.fontSize = event.target.value + "px";
+      // }; 
+
+      // document.querySelector("button").onclick = ()=>{
+      //   document.querySelector("body").style. backgroundColor = "#959595";  
+      // }
+      // let btn=document.createElement("button");
+      // btn.innerText="click me";
+      // btn.style.backgroundColor="red";
+      // btn.style.color="white";
+      // document.querySelector("body").prepend(btn);
+
+      // document.querySelector(".bar").onclick =(event)=>{
+      //   document.querySelector(".content").style.display="block";
+      // }
+
+      // let a="mohit";
+      // console.log(a[2]);
+      // a[2]="r";
+      // console.log(a);
+      
+        //  let x=[1,2,3,"mohit","rohit",8,10.5]
+          
+        //  first= x.pop();
+        //  last=x.shift();
+        //  x.unshift(first);
+        //  x.push(last);
+
+        //  console.log(x);
+         
+
+        // let x =[];
+        // document.querySelector("#sub").onclick =()=>{
+
+        //   let a= document.querySelector("input").value;
+        //   document.querySelector("input").value="";
+        //   document.querySelector("input").focus();
+
+
+        //   x.push(a);
+        //   document.querySelector("#pop").onclick =()=>{
+        //   x.pop();
+        // }
+
+
+        //   console.log(x);
+          
+
+        // }
+        
+        // let x = [100,50,778,99,64,488,63];
+        // let ans = x.reduce((x,y)=>{
+          
+
+        //     ;
+
+
+        // })
+
+        // console.log(ans);
+
+      //  let x= document.querySelector("input").value;
+
+
+      //   let a= [10,20,30,40];
+      //   let y=a.filter((item)=>{
+
+      //     if(item==x){
+
+      //       console.log("this no is prest")
+      //     }  
+         
+
+
+      //   })
+
+    // let obj1 =[
+    //   {
+    //     id: 1,
+    //     name: "aman",
+    //     age:25,
+    //     email:"mohit@gmail.com",
+    //     city:"jaipur",
+    //     marks:{
+    //       maths:65,
+    //       physics:45,
+    //       chemistery:65,
+    //     }
+    //     // pin_code:[302912,2838399,828888],
+
+
+    //   },
+    //   {
+    //     id: 2,
+
+    //     name: "neha",
+    //     age:25,
+    //     email:"mohit@gmail.com",
+    //     city:"jaipur",
+    //     marks:{
+    //       maths:35,
+    //       physics:75,
+    //       chemistery:65,
+    //     }
+
+
+
+    //   },
+    //   {
+    //     id: 3,
+    //     name: "aodi",
+    //     age:25,
+    //     email:"mohit@gmail.com",
+    //     city:"jaipur",
+
+    //   },
+    //   {
+    //     id: 4,
+    //     name: "aman",
+    //     age:25,
+    //     email:"mohit@gmail.com",
+    //     city:"jaipur",
+    //     marks:{
+    //       maths:55,
+    //       physics:25,
+    //       chemistery:65
+    //     }
+
+
+    //   },
+    //   {
+    //     id: 5,
+    //     name: "neha",
+    //     age:25,
+    //     email:"mohit@gmail.com",
+    //     city:"jaipur",
+    //     marks:{
+    //       maths:65,
+    //       physics:75,
+    //       chemistery:65
+    //     }
+
+
+
+    //   },
+    //   {
+    //     id: 6,
+    //     name: "aodi",
+    //     age:25,
+    //     email:"mohit@gmail.com",
+    //     city:"jaipur",
+    //     marks:{
+    //       maths:27,
+    //       physics:95,
+    //       chemistery:95
+    //     }
+
+    //   },
+    //   {
+    //     id: 7,
+    //     name: "aman",
+    //     age:25,
+    //     email:"mohit@gmail.com",
+    //     city:"jaipur",
+    //     marks:{
+    //       maths:55,
+    //       physics:45,
+    //       chemistery:95
+    //     }
+
+
+    //   },
+    //   {
+    //     id: 8,
+    //     name: "neha",
+    //     age:25,
+    //     email:"mohit@gmail.com",
+    //     city:"jaipur",
+    //     marks:{
+    //       maths:35,
+    //       physics:75,
+    //       chemistery:35
+    //     }
+
+
+
+    //   },
+    //   {
+    //     id: 9,
+    //     name: "modi",
+    //     age:17,
+    //     email:"mohit@gmail.com",
+    //     city:"jaipur",
+    //     marks:{
+    //       maths:65,
+    //       physics:35,
+    //       chemistery:65
+    //     }
+
+    //   },
+    //   {
+    //     id: 10,
+    //     name: "modi",
+    //     age:15,
+    //     email:"mohit@gmail.com",
+    //     city:"jaipur",
+    //     marks:{
+    //       maths:65,
+    //       physics:25,
+    //       chemistery:65
+    //     }
+
+    //   },
+
+     
+
+
+
+
+
+
+    //   ];
+
+    //////////////////////////////////////////////////////////////////////////
+
+    const complexData = [
+          {
+            id: 1,
+            name: "John Doe",
+            age: 30,
+            address: {
+              street: "123 Main St",
+              city: "Anytown",
+              country: "USA",
+            },
+            orders: [
+              { orderId: "A123", amount: 50.75, status: "completed" },
+              { orderId: "B456", amount: 30.25, status: "pending" },
+            ],
+          },
+          {
+            id: 2,
+            name: "Jane Smith",
+            age: 25,
+            address: {
+              street: "456 Oak St",
+              city: "Othercity",
+              country: "USA",
+            },
+            orders: [
+              { orderId: "C789", amount: 100.5, status: "completed" },
+              { orderId: "D012", amount: 75.2, status: "completed" },
+            ],
+          },
+        ]
+
+
+
+      // let a=obj1.filter((item)=>{
+          
+      //   return item.age>18;
+
+
+      // })
+      // console.log(a);
+
+      // console.log(obj1[0].id,obj1[0].id)
+
+
+    //  let  a= obj1.filter((item)=>{
+
+
+    //    console.log(item);
+    //     return item.marks<18;
+
+    //  })
+
+//     let  a= obj1.map((item)=>{
+
+
+// console.log(item);
+//  return item.name;
+   
+
+// })
+
+
+// let a=obj1.filter((item)=>{
+
+//   // return item.marks.physics+item.marks.maths+item.marks.chemistery;
+
+//   console.log(item);
+//   return item.name[0]=="a";
+
+
+// })
+//   console.log(a);
+
+  // 'a ''A ' //////////////////////////////////////
+
+
+//   let a=obj1.filter((item)=>{
+
+// // return item.marks.physics+item.marks.maths+item.marks.chemistery;
+
+// console.log(item);
+// return item.name.toLocaleLowerCase()
+
+
+// })
+// console.log(a);        
+
+// Filter users who are aged 25 or younger.
+// let a=complexData.filter((item)=>{
+   
+//   return item.age<=25;
+  
+// })
+// console.log(a);
+
+/////////////////////////////////////////////////////
+// Map the array to get an array of user names.
+
+// let a=complexData.map((item)=>{
+
+//   return item.name;
+
+// })
+// console.log(a);
+
+///////////////////////////////////////////////////////////
+// Filter orders with an amount greater than 50.
+// let a=complexData.filter((item)=>{
+   
+//   // console.log(item.orders.amount);
+
+//   return item.orders;
+
+
+
+// })
+// console.log(a[0].orders[0].amount,a[1].orders[1].amount);
+
+let a=complexData.map((item)=>{
+  
+   
+     return item.orders;
+   
+   
+   
+   })
+   console.log(a);
+   
+
+            
+
+
+    </script>
+  </body>
+</html>

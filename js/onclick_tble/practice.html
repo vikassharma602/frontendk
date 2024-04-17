@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        // let student = {
+
+        //         name : "vikas",
+        //         age :27,
+        //         cgpa:7.5,
+        //         ispass:true, 
+
+        // };
+
+        // for(let key in student){
+
+        //     console.log("key=",key," value = ",student[key]);
+        // }
+
+    // let str="javascript"
+
+    // for(let i of str ){
+
+    //     console.log(i);
+        
+    // }
+
+    // function output(a,b,add){
+    //     sum(a,b)
+    // }
+    // function add(a,b){
+    //     console.log(a+b);
+    // }
+    // output(10 ,20,30)
+        
+
+    // asyncronise////////////////////////////////////////////////////////////////////////////
+
+    //   let a = 10;
+      //   console.log(a);
+      //   let b = 20;
+      //   console.log(b);
+      //   let c = 30;
+      //   console.log(c);
+
+      //   setTimeout(() => {
+      //     for (let i = 0; i < 100000; i++) {
+      //       console.log(i);
+      //     }
+      //   }, 3000);
+
+      //   let d = 40;
+      //   console.log(d);
+      //   let e = 50;
+      //   console.log(e);
+      //   let f = 60;
+      //   console.log(f);
+
+      // let i = 0;
+      // setInterval(() => {
+      //     document.write(i,"<br>")
+      //     i++
+      // }, 500);
+
+      // setTimeout(()=>{
+      //     console.log("Hello")
+      // },3000)
+
+      // function Output(a,b,add){
+      //     sum(a,b)
+
+      // }
+
+      // function add(a,b){
+      //     console.log(a+b)
+      // }
+
+      // Output(10,20,add)
+
+    //   function Food(dish, order) {
+    //     setTimeout(() => {
+    //       console.log(dish);
+    //       if (order) {
+    //         order();
+    //       }
+    //     }, 3000);
+    //   }
+
+    //   Food("Pizza", () => {
+    //     Food("Burger", () => {
+    //       Food("Patties",()=>{
+    //         Food("Cold Drink",()=>{
+    //             Food("Chai")
+    //         })
+    //       });
+    //     });
+    //   });
+
+
+
+    // let prom = new Promise((resolve,reject)=>{
+          
+        //   if(false){
+        //      resolve("Promise pura huaa !!")
+        //   }
+        //   else{
+        //      reject("Promise adhura rh gya !!")
+        //   }
+    //  })
+ 
+    //  prom.then((result)=>{
+    //       console.log(result)
+    //  }).catch((error)=>{
+    //       console.log(error)
+    //  })
+
+
+
+    // let my_api_data = fetch ('https://dummyjson.com/users');
+    // console.log(my_api_data);
+    // my_api_data.then((respose)=>{
+    //         respose.json().then((data)=>{
+    //             data.users.map((item)=>{
+    //                 console.log(item.id,item.firstName,item.lastName,item.age);
+    //             })
+    //         })
+
+        
+
+    // })
+     let my_api_data = fetch ('https://dummyjson.com/users');
+    console.log(my_api_data);
+    my_api_data.then((respose)=>{
+            respose.json().then((data)=>{
+                data.users.map((item)=>{
+                    console.log(item.address,item.city);
+                })
+            })
+
+        
+
+    })
+ 
+ 
+
+
+    </script>
+    
+</body>
+</html>

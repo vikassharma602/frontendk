@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>color</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="main">
+            <input class="inp1" type="text" placeholder="Enter the color name" >
+            <input class="inp2" type="text" placeholder="Enter the no of box" >
+            <button >submet</button>
+            <div class="boxs-box">
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+            </div>
+        </div>
+
+    </div>
+    <script>
+        let btn=document.querySelector("button");
+        btn.addEventListener("click",function(event){
+            let a=document.querySelector(".inp1").value;
+            let b=document.querySelector(".inp2").value;
+
+            let div=document.querySelectorAll(".box");
+            for(let i in div){
+                if(i==b-1){
+                    div[i].style.backgroundColor =a;
+
+                }
+                else {
+                    alert("Enter the valid no box ");
+                }
+            }
+
+        })
+
+
+    </script>
+    
+</body>
+</html>

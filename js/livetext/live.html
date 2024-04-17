@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>live screen</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="inner-box">
+            <div class="iphone-screen">
+                <div class="header"></div>
+                <textarea name="" id="phone" cols="30" rows="10"></textarea>
+                </div>
+            </div>
+        </div>
+        <div class="laptop-screen">
+                <textarea name="" id="laptop" cols="80" rows="8"></textarea>
+        </div>
+
+    </div>
+    <script>
+        let a=document.querySelector("#phone");
+        a.onkeyup=function(){
+
+            document.querySelector("#laptop").innerText=a.value;
+        }
+
+    </script>
+    
+</body>
+</html>

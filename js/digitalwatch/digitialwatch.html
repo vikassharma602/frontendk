@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>digital</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="h dd"></div>
+        <div class="m dd"></div>
+        <div class="s dd"></div>
+    </div>
+    <script>
+        let h1=document.querySelector(".h");
+        let m1=document.querySelector(".m");
+        let s1=document.querySelector(".s");
+    
+
+        setInterval(function(){
+            let day=new Date();
+            let hr= day.getHours();
+            let mi= day.getMinutes();
+            let se= day.getSeconds();
+            console.log(hr)
+            h1.innerHTML=hr;
+            m1.innerHTML=mi;
+            s1.innerHTML=se;
+
+        },1000)
+
+
+
+    </script>
+    
+</body>
+</html>

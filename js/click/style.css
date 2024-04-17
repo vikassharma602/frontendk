@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+input{
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 9px 15px;
+}
+button{
+    padding: 9px 15px;
+}
+.p{
+    margin-left: 30px;
+}
