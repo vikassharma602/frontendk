@@ -1,0 +1,20 @@
+
+.carts_header{
+
+    padding: 20px;
+    border-bottom: 1px solid gray;
+    display: flex;
+    justify-content: space-around;
+  }
+  .latest h2{
+    font-weight: 200;
+    letter-spacing: 2px;
+  
+  }
+  .a_prodect a{
+  
+    text-decoration: none;
+    color: #f33f36;
+    font-weight: 800;
+    text-transform: uppercase;
+  }

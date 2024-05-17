@@ -1,0 +1,116 @@
+*{
+    /* margin: 0; */
+    /* padding: 0; */
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif ;
+    
+  
+  }
+  
+  .Header{
+  
+    /* height: 10vh; */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: sticky;
+    
+  }
+  
+  
+  
+  .logo {
+    /* border: 2px solid wheat; */
+  }
+  
+  h2 span {
+    color: #f33f36;
+  }
+  
+  .logo h2 {
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+  
+  }
+  
+  .rightbox_h{
+    padding: 10px 10px;
+    /* width: 450px; */
+    /* border: 1px solid white; */
+  }
+  
+  ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+  }
+  ul a{
+    font-size: 18px;
+    font-family:'Poppins', sans-serif ;
+    font-weight: 300;
+   
+    /* margin: 5px; */
+    padding: 15px 20px 25px;
+    color: #fff;
+    text-decoration: none;
+  }
+  .menu{
+    height:2vh;
+    width: 10px;
+    padding: 20px 20px  ;
+    display: flex;
+    /* border: 3px solid white; */
+    justify-content: center;
+    align-items: center;
+    display: none;
+    
+  
+  }
+  a ,#a1,#a2,#a3,#a4{
+  
+    /* border-bottom: 4px solid red; */
+    /* border: none; */
+    
+  
+  
+  }
+  #li:hover{
+  
+    border-bottom: 3px solid red;
+  }
+  @media screen and (max-width: 990px) {
+  
+    .menu{
+  
+      display: block;
+  
+    }
+    
+    .rightbox_h{
+  
+      display: none;
+    }
+  
+    
+  
+    
+  }
+  
+  button{
+    padding: 10px;  
+  }
+  span i{
+    font-size: 15px;
+    color: red ;
+    
+  }

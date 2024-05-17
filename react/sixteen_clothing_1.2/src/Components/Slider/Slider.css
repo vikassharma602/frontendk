@@ -1,0 +1,31 @@
+.slider{
+
+    height: 90vh;
+    width: 100%;
+    background-image: url('../images/slide_01.jpg');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   text-align: center;
+   background-position: center;
+   background-size: cover;
+  
+    
+  }
+  .slider h2{
+    font-size: 28px;
+    color: red;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  
+  .slider h4{
+    padding-top: 20px;
+    font-size:68px;
+    color: #fff;
+    font-weight: 100;
+    letter-spacing: 9px;
+    text-transform: uppercase;
+  }
+  
