@@ -5,8 +5,11 @@ function Cards() {
     return ( 
 
         <> 
+         <div className="cardsouter">
         {
         Cardproduct.map((item)=>
+
+         
             <div className="card">
                 <div className="cardimage">
                     <img src={item.image} alt="" />
@@ -32,9 +35,11 @@ function Cards() {
                     <div className='innerreview'><p id='review'>{item.reviews}</p></div>
                   </div>
                 </div>
-          </div>
+              </div>
+         
           )
         }
+         </div>
 
        
           

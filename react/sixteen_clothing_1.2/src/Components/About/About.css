@@ -1,0 +1,39 @@
+
+.aboutouter{
+
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about-heading{
+    width: 1150px;
+    /* border: 1px solid red; */
+    color: black;
+    border-bottom: 1px solid rgb(218, 217, 217);
+}
+h2{
+    font-size: 24px;
+    font-family:'Poppins',sans-serif ;
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+.about-2-box{
+    border: 1px solid black;
+    padding: 20px;
+    display:flex ;
+    justify-content: space-evenly;
+
+}
+
+.ab-lft{
+    width: 300px;
+    border: 1px solid black;
+    padding: 10px;
+}
+.ab-rgt{
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+    padding: 10px;
+}

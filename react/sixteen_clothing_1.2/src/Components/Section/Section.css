@@ -1,10 +1,20 @@
-
+.carts-innerbox{
+  /* width: 1100px; */
+  /* border:2px solid red; */
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .carts_header{
 
-    padding: 20px;
+    width: 1200px;
+    /* border: 1px solid black; */
+    /* padding: 20px; */
     border-bottom: 1px solid gray;
     display: flex;
-    justify-content: space-around;
+    justify-content:space-between;
+    align-items: center;
   }
   .latest h2{
     font-weight: 200;
